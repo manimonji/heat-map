@@ -10,6 +10,27 @@ body{
 
     font-family: figtree;
 }
+#title{
+    margin-bottom: 0;
+}
 #description{
     font-size: 1.5rem;
+}
+#tooltip{
+    padding: 0.5rem 1rem;
+
+    position: absolute;
+
+    color: #ffffff;
+    background-color: #000000d5;
+
+    border: solid 1px #000;
+    border-radius: 0.5rem;
+
+    line-height: 1.75rem;
+    text-align: center;
+
+    transform: translate(-50%, -110%);
+
+    pointer-events: none;
 }
